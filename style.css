@@ -1,0 +1,68 @@
+.navbar{
+    background-color: grey;
+    text-transform: uppercase;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 70px;
+}
+
+.hero{
+    background: url(main.jpg) no-repeat;
+    height: 700px;
+    background-size: cover;
+}
+
+.row p{
+text-align: justify;
+}
+
+.row h4{
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(160, 4, 4)
+}
+
+.hover-zoom{
+    transform: scale(1);
+    transition: all 2s;
+
+}
+.hover-zoom:hover{
+    transform: scale(1.2);
+    
+}
+.card img{
+    width: 300px !important;
+    height: 300px !important;
+}
+
+.info{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+
+footer{
+    background-color: rgb(31, 29, 29);
+}
+
+.ftimg img{
+    border-radius: 50%;
+    width: 40%;
+}
+.fa{
+    font-size: 50px;
+    padding: 15px;
+    text-decoration: none;
+    
+}
+
+.card-body{
+    
+  
+    font-size: 14px !important;
+}
