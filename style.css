@@ -1,5 +1,5 @@
 .navbar{
-    background-color: grey;
+    background-color: rgb(233, 141, 21);
     text-transform: uppercase;
 }
 
@@ -47,7 +47,7 @@ text-align: justify;
 }
 
 footer{
-    background-color: rgb(31, 29, 29);
+    background-color: rgb(233, 141, 21);
 }
 
 .ftimg img{

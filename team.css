@@ -9,7 +9,7 @@ body {
 
 
 .navbar{
-    background-color: grey;
+    background-color: rgb(233, 141, 21);
     text-transform: uppercase;
 }
 
@@ -57,7 +57,7 @@ body {
 }
 
 .team-info{
-    background: linear-gradient(342deg, rgba(127, 127, 28, 1) 0%, rgba(130, 116, 80, 1) 32%, rgba(26, 24, 26, 1) 100%);
+    background: linear-gradient(342deg, rgb(245, 171, 59) 0%, rgb(221, 203, 39) 32%, rgb(192, 130, 192) 100%);
     border-radius: 20px;
 }
 
@@ -66,9 +66,12 @@ body {
 }
 
 .row-1 img{
-    border-radius: 100px;
+    border-radius: 20px;
 }
 
+.row-2 img{
+    border-radius: 20px;
+}
 .row-2{
     text-align: center;
 }
@@ -82,7 +85,7 @@ body {
 }
 
 footer{
-    background-color: black;
+    background-color: rgb(233, 141, 21);
 }
 
 .ftimg img{
