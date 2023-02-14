@@ -1,0 +1,9 @@
+.navbar{
+    background-color: rgb(233, 141, 21);
+    text-transform: uppercase;
+}
+
+.logo{
+    border-radius: 50%;
+    width: 70px;
+}
