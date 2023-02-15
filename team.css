@@ -107,3 +107,45 @@ footer{
     font-family: 'Times New Roman', Times, serif;
   
 }
+.address1{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    text-align: center;
+}
+.address2{
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+    text-align: center;
+}
+.phone{
+    font-size: 10px;
+}
+
+.icons a{
+    color: black ;
+    font-size: 20px;
+}
+
+footer{
+    background-color:  rgb(179, 179, 179);
+}
+.info{
+    
+    text-transform: uppercase;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+  
+}
+.loc1 img{
+    width: 50%;
+    height: 50%;
+    
+}
+.fa{
+    font-size: 50px;
+    padding: 10px;
+    text-decoration: none;
+    
+}
