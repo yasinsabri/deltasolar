@@ -66,3 +66,56 @@ footer{
   
     font-size: 14px !important;
 }
+.mission{
+    background-color: rgb(241, 241, 241);
+    justify-content: center;
+    text-align: center;
+    text-align: justify;
+}
+
+.mission h1{
+   color: rgb(128, 41, 41);
+   text-align: center;
+   margin-top: 30px;
+}
+
+
+
+
+
+.vission{
+    
+    justify-content: center;
+    text-align: center;
+    text-align: justify;
+}
+
+.vission h1{
+   color: rgb(128, 41, 41);
+   text-align: center;
+   margin-top: 50px;
+}
+.vission p{
+    margin-top: 25px;
+}
+.mission p{
+    margin-top: 25px;
+}
+
+.offgrid img{
+    width: 40%;
+    margin-left: 17%;
+}
+.ongrid img{
+    width: 40%;
+    margin-left: 17%;
+}
+.netmetering img{
+    width: 40%;
+    margin-left: 17%;
+}
+.hybrid img{
+    width: 40%;
+  
+    margin-left: 17%;
+}
