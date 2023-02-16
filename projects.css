@@ -7,6 +7,12 @@
     border-radius: 50%;
     width: 70px;
 }
+.nav-btn{
+    border: none;
+    background-color:rgb(233, 141, 21) ;
+    
+    
+}
 
 .row p {
     text-align: justify;
