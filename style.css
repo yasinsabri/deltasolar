@@ -2,6 +2,12 @@
     background-color: rgb(233, 141, 21);
     text-transform: uppercase;
 }
+.nav-btn{
+    border: none;
+    background-color:rgb(233, 141, 21) ;
+    font-size: large;
+    
+}
 
 .logo{
     border-radius: 50%;
