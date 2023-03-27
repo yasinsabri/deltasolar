@@ -5,8 +5,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
   <title>Delta Engineering</title>
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -16,8 +16,8 @@
 
 <body>
   <!-- Nav Bar -->
-  
-  <nav class="navbar navbar-expand-lg navbar-light ">
+
+  <nav class="navbar navbar-expand-lg navbar-light sticky-top">
     <div class="container-fluid">
       <a href="index.html"><img class="logo" src="logo.png" alt="logo"></a>
       <a class="navbar-brand" href="#"> <b> Delta Engineers </b></a>
@@ -28,24 +28,24 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <!-- <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul> -->
         <!-- <span class="navbar-text"> -->
-          <ul class="navbar-nav m-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="index.html"> <b>Home </b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="#services"> <b> Our Services</b></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active " href="projects.html"> <b> Our Projects</b></a>
-            </li>
-            <li class="nav-item ">
-              <a class="nav-link active" href="team.html"> <b> Team </b></a>
-            </li>
-          </ul>
+        <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html"> <b>Home </b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#services"> <b> Our Services</b></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active " href="projects.html"> <b> Our Projects</b></a>
+          </li>
+          <li class="nav-item ">
+            <a class="nav-link active" href="team.html"> <b> Team </b></a>
+          </li>
+        </ul>
         <!-- </div> -->
-       
+
         <button class=" nav-btn me-auto mb-2  mb-lg-0"> <b> CONTACT US </b></button>
-        </div>
+      </div>
   </nav>
 
   <main>
@@ -66,38 +66,157 @@
           <img src="slider3.png" class="d-block w-100" alt="...">
         </div>
       </div>
-      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Previous</span>
       </button>
-      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="visually-hidden">Next</span>
       </button>
     </div>
 
     <!-- Our Services -->
-    <div class="container" id="services" >
-      <div class="row">
-        <div class="col d-flex mt-5 justify-content-center align-content-center align-items-center">
-          <H1>OUR SERVICES</H1>
+    <!-- SERVICE CARD -->
+    <section id="services" class="advertisers-service-sec pt-5 pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="section-header text-center">
+            <h2 class="fw-bold fs-1">
+              OUR
+              <span class="b-class-secondary">SERVICES </span>
+            </h2>
+            <p class="sec-icon"><i class=" fa fa-solid fa-gear"></i></p>
+          </div>
+        </div>
+        <div class="row mt-5 mt-md-4 row-cols-1 row-cols-sm-1 row-cols-md-3 justify-content-center">
+          <div class="col">
+            <div class="service-card">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa fa-line-chart"></i>
+              </div>
+              <h3>Feasibility Study</h3>
+              <p>
+                Before any solar project, it is important to conduct a feasibility study. Our team of experts will
+                analyze the site, assess the solar potential, and identify any potential barriers to installation. This
+                allows us to provide you with a detailed report of the expected energy output, cost analysis, and
+                timelines.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="icon-wrapper">
+                <i class="fa-solid  fa fa-book"></i>
+              </div>
+              <h3>Design and Supply</h3>
+              <p>
+                We specialize in designing customized solar solutions to fit your specific needs. Our team will work
+                with you to design a solar energy system that maximizes your return on investment. We will then source
+                the highest quality components from reputable suppliers, ensuring you receive a reliable and efficient
+                system.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa  fa-globe"></i>
+              </div>
+              <h3>Complete Installation</h3>
+              <p>
+                Our team of experienced engineers and technicians will manage every aspect of your solar installation,
+                from site preparation to commissioning. We work efficiently and safely to ensure minimum disruption to
+                your operations, and our installations are fully compliant with all relevant regulations.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa fa-briefcase"></i>
+              </div>
+              <h3>Maintenance and Repairing</h3>
+              <p>
+                We understand the importance of ensuring your solar energy system operates at maximum efficiency
+                throughout its lifetime. That's why we offer comprehensive maintenance and repair services to keep your
+                system running smoothly. Our technicians will conduct regular inspections, identify any issues, and
+                provide prompt repairs when required.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="icon-wrapper">
+                <i class="fa-regular fa fa-comments-o"></i>
+              </div>
+              <h3>Online Monitoring</h3>
+              <p>
+                We offer online monitoring services to provide you with real-time information on the performance of your
+                solar energy system. Our monitoring system allows us to identify any issues promptly and provide
+                immediate solutions to keep your system running efficiently.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa fa-bars"></i>
+              </div>
+              <h3>Net Metering</h3>
+              <p>
+                We offer net metering services to allow you to sell excess energy generated by your solar system back to
+                the grid. Our team will help you navigate the regulatory requirements and ensure you receive the maximum
+                benefit from your solar investment.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa fa-university"></i>
+              </div>
+              <h3>Bank Financing</h3>
+              <p>
+                We understand that investing in solar energy can be a significant financial commitment. That's why we
+                offer financing solutions to help you access the benefits of solar energy without upfront costs. We work
+                with leading financial institutions to provide flexible financing options that meet your specific needs.
+              </p>
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa fa-balance-scale"></i>
+              </div>
+              <h3>After Sales Service</h3>
+              <p>
+                At Delta Solar Private Limited, we are committed to providing exceptional after-sales service. We offer
+                ongoing support and assistance to ensure your solar energy system continues to operate at maximum
+                efficiency.
+            </div>
+          </div>
+          <div class="col">
+            <div class="service-card">
+              <div class="icon-wrapper">
+                <i class="fa-solid fa fa-question-circle"></i>
+              </div>
+              <h3>Consultation </h3>
+              <p>
+                We offer consultation services to allow you to sell excess energy generated by your solar system back to
+                the grid. Our team will help you navigate the regulatory requirements and ensure you receive the maximum
+                benefit from your solar investment.
+              </p>
+            </div>
+          </div>
         </div>
       </div>
-    </div>
-   <div class="container">
-    <div class="row">
-      <div class="col-sm-6">
-        
-      </div>
-      <div class="col-sm-6">
-        <div class="servicechart m-auto pt-5">
-          <img src="SERVICES CHART.png" alt="" width="100%">
-        </div>
-      </div>
-    </div>
-   </div>
-   <!-- TYpes of SOlar  -->
-    <div class="container" >
+    </section>
+    <!-- ADVERTISERS SERVICE CARD ENDED -->
+    <!-- TYpes of SOlar  -->
+    <div class="container">
       <div class="row">
         <div class="col d-flex mt-5 justify-content-center align-content-center align-items-center">
           <H1>TYPES OF SOLAR</H1>
@@ -271,60 +390,60 @@
   <footer>
     <div class="container-fluid">
 
-        <div class="container  ">
-            <div class="row">
-                <div class=" info col-sm-6 pt-3">
-                    <div class=" d-flex">
-                        <div class="loc1">
-                            <img src="address-icon-1732.png" alt="">
-                        </div>
-                        <div class="address1">
+      <div class="container  ">
+        <div class="row">
+          <div class=" info col-sm-6 pt-3">
+            <div class=" d-flex">
+              <div class="loc1">
+                <img src="address-icon-1732.png" alt="">
+              </div>
+              <div class="address1">
 
-                            <h6>Sahiwal Office</h6>
-                            <p> House No #375, Karbala Road, Sahiwal </p>
-                        </div>
-                    </div>
-                    <div class="loc1 d-flex ">
-                        <div class="loc1">
-                            <img src="address-icon-1732.png" alt="">
-                        </div>
-                        <div class="address2">
-
-                            <h6>LAHORE OFFICE</h6>
-                            <p> Gazi Road, St# 21, Block-D, Lahore Cantt, Lahore </p>
-                        </div>
-                    </div>
-                    <div class="loc1 d-flex ">
-                        <div class="loc1">
-                            <img src="icon-call-1.png" alt="">
-                        </div>
-                        <div class="phone">
-
-                            <h6>Phone Numbers</h6>
-                            <p> +92-304-7400573 +92-321-6916665 </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-sm-2 "></div>
-
-                <div class="col-sm-4 icons m-auto">
-
-
-                    <a href="https://www.facebook.com/deltasolarpvt" class="fa fa-facebook"></a>
-                    <a href="#" class="fa fa-twitter"></a>
-                    <a href="#" class="fa fa-instagram"></a>
-                    <a href="#" class="fa fa-youtube"></a>
-                    <a href="#" class="fa fa-telegram"></a>
-                    <a href="#" class="fa fa-linkedin"></a>
-                    <a href="https://deltasolar.netlify.app/" class="fa fa-globe"></a>
-
-                </div>
+                <h6>Sahiwal Office</h6>
+                <p> House No #375, Karbala Road, Sahiwal </p>
+              </div>
             </div>
-        </div>
-        </div>
+            <div class="loc1 d-flex ">
+              <div class="loc1">
+                <img src="address-icon-1732.png" alt="">
+              </div>
+              <div class="address2">
+
+                <h6>LAHORE OFFICE</h6>
+                <p> Gazi Road, St# 21, Block-D, Lahore Cantt, Lahore </p>
+              </div>
+            </div>
+            <div class="loc1 d-flex ">
+              <div class="loc1">
+                <img src="icon-call-1.png" alt="">
+              </div>
+              <div class="phone">
+
+                <h6>Phone Numbers</h6>
+                <p> +92-304-7400573 +92-321-6916665 </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-sm-2 "></div>
+
+          <div class="col-sm-4 icons m-auto">
 
 
-</footer>
+            <a href="https://www.facebook.com/deltasolarpvt" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-telegram"></a>
+            <a href="#" class="fa fa-linkedin"></a>
+            <a href="https://deltasolar.netlify.app/" class="fa fa-globe"></a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </footer>
 
 
 
