@@ -496,7 +496,7 @@ h1{
 }
 
 /*reduce size of image*/
-img{
+.image img{
 	width:150px;
 	height:150px;
 }
